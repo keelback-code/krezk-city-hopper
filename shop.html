@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="krezk, krezk tour, small group tour, bus tour, wine tour, bus hopper, bus ticket, wildlife tour, luxury tour, best krezk tour, good krezk tour, krezk history" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Krezk! Shop</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Krezk City Bus Hopper</a>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <section>
+        <div class="container">
+            <h1 class="text-center pt-3">Krezk City Bus Hopper Shop</h1>
+
+            <div class="row p-3 mx-auto">
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/bus.jpg" alt="A bus speeding by an ancient-looking building">
+                        <div class="card-body">
+                            <h2 id="copperTour" class="card-title fs-3">Krezk City Hopper Copper Ticket</h2>
+                            <p class="card-text">EUR<span id="copperPrice">15</span></p>
+                            <a id="copperBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/bus.jpg" alt="A bus speeding by an ancient-looking building">
+                        <div class="card-body">
+                            <h2 id="goldTour" class="card-title fs-3">Krezk City Hopper Gold Ticket</h2>
+                            <p class="card-text">EUR<span id="goldPrice">30</span></p>
+                            <a id="goldBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/bus-weekly.jpg" alt="A bus driving along a dirt road through a forest of tall, tall trees.">
+                        <div class="card-body">
+                            <h2 id="weeklyTour" class="card-title fs-3">Krezk City Hopper Weekly Pass</h2>
+                            <p class="card-text">EUR<span id="weeklyPrice">40</span></p>
+                            <a id="weeklyBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/bus-yearly.jpg" alt="A view from inside a bus, looking over a passenger's shoulder. They look at a public square outisde, which has old architectur, and people walking around.'">
+                        <div class="card-body">
+                            <h2 id="yearlyTour" class="card-title fs-3">Krezk City Hopper Yearly Pass</h2>
+                            <p class="card-text">EUR<span id="yearlyPrice">150</span></p>
+                            <a id="yearlyBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row p-3 mx-auto">
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/local-tour.jpg" alt="A grand building towers out of a wheat field.">
+                        <div class="card-body">
+                            <h2 id="smlTour" class="card-title fs-3">Small Group Local Tour</h2>
+                            <p class="card-text">EUR<span id="smlTourPrice">25</span></p>
+                            <a id="smlTourBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/wine-tour.jpg" alt="Rows of bottles of wine in a dark cellar.">
+                        <div class="card-body">
+                            <h2 id="wineTour" class="card-title fs-3">Small Group Wine Tasting</h2>
+                            <p class="card-text">EUR<span id="winePrice">35</span></p>
+                            <a id="wineBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/cabinet-curiosities.jpg" alt="A curious book lies open; it features demons and humans.">
+                        <div class="card-body">
+                            <h2 id="curiousTour" class="card-title fs-3">Cabinet of Curiosities Tour</h2>
+                            <p class="card-text">EUR<span id="curiousPrice">50</span></p>
+                            <a id="curiousBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card shop-card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/wildlife.jpg" alt="A wolf with light fur stands in front of a large tree.">
+                        <div class="card-body">
+                            <h2 id="wildlifeTour" class="card-title fs-3">Wildlife Viewing Tour</h2>
+                            <p class="card-text">EUR<span id="wildlifePrice">30</span></p>
+                            <a id="wildlifeBtn" class="btn btn-dark btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3 mx-auto">
+                <div class="col-5"></div>
+                <div class="col-2 text-center">
+                    <a id="btnCheckout" class="btn">Checkout</a>
+                </div>  
+                <div class="col-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky footer -->
+    <footer class="text-center bg-dark pt-2">
+        <ul class="footer-list">
+            <li><a href="index.html">Krezk City Bus Hopper</a></li>
+            <li><a href="contact.html">Contact Page</a></li>
+            <li><a href="mailto:237gtc23192@gretb.ie">Email Us</a></li>
+            <li><a href="#">Back to Top</a></li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript" src="js/shop.js"></script>
+
+</body>
+</html>

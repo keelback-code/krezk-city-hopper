@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+/*Universal styling*/
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body
+{
+    background: black;
+    color: antiquewhite;
+}
+
+.active {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+/*Style footer*/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;      
+}
+
+.footer-list {
+    list-style-type: none;
+    font-size:smaller;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color:antiquewhite; 
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+
+/*Style Landing page*/
+
+#landing-image {
+    border-radius: 10%;
+    margin: 3px;
+    transition: 2s;
+}
+
+#landing-image:hover {
+    transform:scale(1.1);
+}
+
+
+/*Style History page and Checkout button*/
+
+.card, #btnCheckout {
+    background: antiquewhite;
+    color: black;
+}
+
+.card:hover, #btnCheckout:hover {
+    border: 6px solid #741313;
+}
+
+
+/*Style About page*/
+
+#about-image {
+    transition: 3s ease;
+}
+
+#about-image:hover {
+    transform:scaleX(0);
+}
+
+
+/*Style Shop page*/
+
+#btnCheckout {
+    font-size: 28px;
+    padding: 10px;
+}
+
+.shop-card img {
+    height:300px;
+}
