@@ -27,12 +27,12 @@ function clickBtn(prodName, prodPrice, btnID) {
             priceTotal.push(prodPrice);
             btnID.innerHTML = "Remove from Cart";
             btnID.style.background = "#741313";
-            alert(prodName + " has been added to your cart");
+            btnID.style.boxShadow = "10px 10px 30px black";
         }
         else {
             btnID.innerHTML = "Add to Cart";            
             btnID.style.background = "black";
-            alert(prodName + " has been removed from your cart");
+            btnID.style.boxShadow = "none";
 
             // Remove only specified values from product arrays
             for (var i = 0; i < products.length; i++) {
@@ -66,7 +66,17 @@ function checkout() {
             for (var k = 0; k < total.length; k++) {
                 sum += total[k];
             } 
-            alert("Your products are " + products + "\nThe total price is " + sum);
         }
+
+        // Display items and total price to user
+        cart = "Items in your cart:";
+
+        for (var l = 0; l < products.length; l++) {
+            cart = cart + "\n " + products[l] + " EUR" + priceTotal[l];
+        }
+
+        cart = cart + "\n Total cost: EUR" + sum;
+
+        alert(cart);
     })
 }
